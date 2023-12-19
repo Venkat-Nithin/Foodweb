@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+h2{
+  color: white;
+}
+p{
+  color: white;
+  font-size: large;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+body{
+  background-color: #4D0906;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  overflow-x: hidden;
+}
+#header{
+  width: 100vw;
+  height: fit-content;
+  background-color:#4D0906;
+  color: white;
+  font-size: medium;
+}
+#image{
+  width: 200px;
+  height: 60px;
+}
+#subHeader1{
+  width: 100vw;
+  height: 80px;
+  padding: 0px 30px 0px 30px;
+  background-color:#E6C799;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+#subHeader2 h1 {
+  padding-bottom: 8px;
+}
+
+#subHeader2{
+  padding: 0px 15% 0px 15%;
+}
+#home-button{
+  width: 100px;
+  height: 50px;
+  color: #883D1A;
+  background-color: #A47351;
+  font-weight: bolder;
+  font-size: medium;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#searchBar{
+  width: 225px;
+  height: 35px;
+  padding-left: 5px;
+  border: 2px solid black;
+  outline: none;
+  text-align: start;
+}
+#SearchButton{
+  width: 50px;
+  height: 35px;
+  color: white;
+  background-color: rgb(29, 26, 26);
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 0px 4px 4px 0px;
+}
+.modeButton{
+  margin-right: 10px;
+  width: 60px;
+  height: 35px;
+  color:rgb(29, 26, 26);
+  background-color:white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.modeButton:active {
+  transform: translateY(4px);
+}
+.meal{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 250px;
+  max-height: fit-content;
+  padding: 10px;
+  gap: 15px;
+  background-color:#E6C799;
+  border-radius: 10px;
+}
+.mealimg{
+  width: 180px;
+  border-radius: 10px;
+}
+#results{
+  width: 70vw;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #ff6a00;
+}
+#ingredients{
+  gap: 3px;
+  font-size: larger;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #E6C799;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 45%;
+  max-height: fit-content;
+}
+
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer hr{
+  border-bottom: 1.8px solid #ffffff;
+  margin: 0 auto;
+  width: 90vw;
+}
+#randomMealCard{
+  color: #ff6a00;
+}
+#SearchButton{
+  color: #A47351;
+}
+#abc{
+  font-size: larger;
+}
